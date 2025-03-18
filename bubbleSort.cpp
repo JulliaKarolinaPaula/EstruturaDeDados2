@@ -9,6 +9,10 @@ void bubbleSort(int *lista, int n){
                   aux = lista[j+1];
                   lista[j+1] = lista[j];
                   lista[j] = aux;
+                printf("\nOrdenando: ");
+                for(int k = 0;k < n;k++){
+                  printf(" %d ", lista[k]);
+                }
             }
          }
       }
